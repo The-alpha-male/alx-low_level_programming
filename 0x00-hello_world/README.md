@@ -7,3 +7,5 @@
 3-name writes a script that compiles a C file and creates an executable named cisfun
 
 4-puts.c prints "programming is like a building" followed by a new line
+
+5-print uses the printf function
