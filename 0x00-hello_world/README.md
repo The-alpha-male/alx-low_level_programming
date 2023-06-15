@@ -11,3 +11,5 @@
 5-print uses the printf function
 
 6-size.c prints the size of various types on the computer
+
+100-intel writes a script that generates assembly code of a C code and saves it in output file
