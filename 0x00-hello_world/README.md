@@ -9,3 +9,5 @@
 4-puts.c prints "programming is like a building" followed by a new line
 
 5-print uses the printf function
+
+6-size.c prints the size of various types on the computer
