@@ -1,9 +1,13 @@
 #include <stdio.h>
-
 /**
- * main - A program that prints all possible combinations of two two-digit numbers '0'to '99'
- * Return:0 (success)
-*/
+ * main - Prints all possible combinations of two two-digit numbers
+ *
+ * Description:
+ *   This program generates and prints all possible combinations of two
+ *   until "98 99".
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int x, j;
