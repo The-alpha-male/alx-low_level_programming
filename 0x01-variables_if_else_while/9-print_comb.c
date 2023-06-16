@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	int mNumber;
+	int Number;
 	/*looping to print the posible comination of numbers*/
 	for (Number = 0; Number <= 9; Number++)
 	{
