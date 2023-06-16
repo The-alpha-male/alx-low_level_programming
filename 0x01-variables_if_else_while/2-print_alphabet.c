@@ -1,8 +1,13 @@
 #include <stdio.h>
+
 /**
- * Main - prints alphabets in lowercase
- * Return : 0 (success)
+ * main - Entry point
+ *
+ * Description: Prints the alphabet in lowercase using putchar function.
+ *
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	/* initialize char */
