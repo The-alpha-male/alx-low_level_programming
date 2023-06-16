@@ -1,9 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
- * Description: Prints the alphabet in lowercase and the uppercase using putchar function.
+ * Description: Prints the alphabet in lowercase and then in uppercase
+ * using putchar function.
  *
  * Return: Always 0 (Success)
  */
