@@ -2,8 +2,7 @@
 
 /**
  * main - Prints all possible combinations of two two-digit numbers
- *
- * Description: This program generates and prints all possible combinations of two digits 0 to 99 
+ * Description: This program generates and prints all possible combinations of two digits 0 to 99
  * Return: Always 0 (Success)
  */
 int main(void)
