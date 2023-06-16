@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints alphabets in lowercase
- * return : 0 (success)
+ * Return : 0 (success)
  */
 int main(void)
 {
