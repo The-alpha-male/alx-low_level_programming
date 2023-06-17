@@ -8,22 +8,22 @@
 
 int main(void)
 {
-	int i;
+	int n;
 	srand(time(0));
-	i = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
 	/* det sgn of number*/
-	if (i > 0)
+	if (n > 0)
 	{
-		printf("%d is positive\i", i );
+		printf("%d is positive\n", n);
 	}
-	else if (i < 0)
+	else if (n < 0)
 	{
-		printf("%d is negative\i", i );
+		printf("%d is negative\n", n );
 	}
 	else
 	{
-		printf("%d is zero\i", i );
+		printf("%d is zero\n", n );
 	}
 	return (0);
 }
