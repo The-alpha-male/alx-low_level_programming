@@ -13,6 +13,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	/* det sgn of number*/
+
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
