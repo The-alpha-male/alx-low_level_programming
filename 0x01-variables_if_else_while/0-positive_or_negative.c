@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  *  main - a program that prints whether number is positive ,negative or
  *  Return:0 (Success)
