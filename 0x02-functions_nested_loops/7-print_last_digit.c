@@ -6,14 +6,15 @@
  * Return: Always 0.
  */
 
-int main(void)
+int print_last_digit(int n)
 {
-	int r;
+	int digit;
 
-        print_last_digit(98);
-        print_last_digit(0);
-        r = print_last_digit(-1024);
-        _putchar('0' + r);
-        _putchar('\n');
-        return (0);
+	digit = n % 10;
+
+	if (digit < 0)
+		digit = -digit;
+
+	_putchar(digit + '0');
+	return (digit);
 }
