@@ -1,9 +1,3 @@
-/*
- * File: 0-putchar.c
- * Auth: The-alpha-male
- *
- */
-
 #include "main.h"
 
 /**
