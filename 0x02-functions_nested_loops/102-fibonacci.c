@@ -9,16 +9,16 @@
 int main(void)
 {
 	int count;
-	unsigned long fib1 = 0, fib2 = 1, sum;
+	unsigned long fib_1 = 0, fib_2 = 1, sum;
 
 
 	for (count = 0; count < 50; count++)
 	{
-		sum = fib1 + fib2;
+		sum = fib_1 + fib_2;
 		printf("%lu", sum);
 
-		fib1 = fib2;
-		fib2 = sum;
+		fib_1 = fib_2;
+		fib_2 = sum;
 
 		if (count == 49)
 			printf("\n");
