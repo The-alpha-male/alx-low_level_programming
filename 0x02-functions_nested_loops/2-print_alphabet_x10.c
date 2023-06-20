@@ -11,7 +11,7 @@ void print_alphabet_x10(void)
 
 	while (count++ <= 9)
 	{
-		for (lower_case = 'a'; lower_case <= 'z';lower_case ++)
+		for (lower_case = 'a'; lower_case <= 'z'; lower_case++)
 			_putchar(lower_case);
 		_putchar('\n');
 	}
