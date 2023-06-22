@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void print_integer(int num)
+void print_integer(int n)
 {
-	printf("%d\n", num);
+	printf("%d\n", n);
 }
