@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * print_numbers- print number
- *
- * Return: The product of a and b
+ *print_numbers - prints number
  */
 
 void print_numbers(void)
