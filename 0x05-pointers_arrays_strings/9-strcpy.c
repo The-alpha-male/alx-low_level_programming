@@ -2,7 +2,6 @@
 
 /**
  *_strcpy - copies strings
- * 
  *@dest: destination
  *@src: source
  *Return: pointer
