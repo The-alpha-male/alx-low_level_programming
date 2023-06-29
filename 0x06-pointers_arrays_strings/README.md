@@ -10,4 +10,6 @@ src does not need to be null-terminated if it contains n or more bytes
 
 4-rev_array.c reverses the content of an array of integers
 
+6-cap_string.c function that capitalizes all words of a string.
+
 
