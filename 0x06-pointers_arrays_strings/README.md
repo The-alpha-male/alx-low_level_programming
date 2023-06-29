@@ -12,4 +12,4 @@ src does not need to be null-terminated if it contains n or more bytes
 
 6-cap_string.c function that capitalizes all words of a string.
 
-
+7-leet.c function that encodes a string into 1337
