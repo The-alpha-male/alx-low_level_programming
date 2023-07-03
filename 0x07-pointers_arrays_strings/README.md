@@ -2,4 +2,6 @@
 
 1-memcpy.c function that copies memory area.
 
+2-strchr.c function that locates a character in a string
+
 
