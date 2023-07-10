@@ -7,7 +7,7 @@
  * count_words - counts the number of words in a string
  * @str: string to count words from
  *
- * Return: no.of words
+ * Return: number of words
  */
 static int count_words(char *str)
 {
@@ -28,13 +28,12 @@ static int count_words(char *str)
 }
 
 /**
- *allocate_words - allocates memory for words in an array of strings
- *@str: string to split into words
- *@word_count: number of words
- *Return: pointer to an array of strings
- *         NULL = fail
+ * allocate_words - allocates memory for words in an array of strings
+ * @str: string to split into words
+ * @word_count: number of words
+ *
+ * Return: pointer to an array of strings
  */
-
 static char **allocate_words(char *str, int word_count)
 {
 	char **words;
@@ -74,11 +73,11 @@ static char **allocate_words(char *str, int word_count)
 }
 
 /**
- *strtow - splits a string into words
- *@str: string to split
- *Return: pointer array strings
+ * strtow - splits a string into words
+ * @str: string to split
+ *
+ * Return: pointer to an array of strings
  */
-
 char **strtow(char *str)
 {
 	char **words;
@@ -92,3 +91,4 @@ char **strtow(char *str)
 
 	return (words);
 }
+
