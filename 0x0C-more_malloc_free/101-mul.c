@@ -4,16 +4,16 @@
 
 /**
  * _atoi_digit - convert a char to integer.
- * @j: character to convert.
+ * @x: character to convert.
  * Return: integer.
  **/
 
-int _atoi_digit(char j)
+int _atoi_digit(char x)
 {
 	unsigned int res;
 
-	if (j <= '9' && j >= '0')
-		res = j - '0';
+	if (x <= '9' && x >= '0')
+		res = x - '0';
 	return (res);
 }
 
