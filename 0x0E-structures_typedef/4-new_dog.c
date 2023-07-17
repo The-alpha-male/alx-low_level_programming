@@ -4,9 +4,9 @@
 
 /**
  * new_dog - creates a new dog
- * @name: name of dog
- * @age: age of dog
- * @owner: owner of dog
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog owner
  *
  * Return: pointer to new dog
  */
