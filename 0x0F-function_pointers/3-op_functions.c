@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * op_add - return the sum of two numbers
- * @a: int
- * @b: int
- * Return: int
+ * op_add - sum of two numbers
+ * @a: integer input
+ * @b: integer input
+ * Return: sum of integers
  */
 
 int op_add(int a, int b)
@@ -15,10 +15,10 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - return the different of two numbers
- * @a: int
- * @b: int
- * Return: int
+ * op_sub - subtract two integers
+ * @a: integer
+ * @b: integer
+ * Return: subrtaction of integers
  */
 
 int op_sub(int a, int b)
@@ -27,10 +27,10 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - return the product of two numbers
- * @a: int
- * @b: int
- * Return: int
+ * op_mul - multiplication of numbers
+ * @a: integer
+ * @b: integer
+ * Return: multiplication of integers
  */
 
 int op_mul(int a, int b)
@@ -40,9 +40,9 @@ int op_mul(int a, int b)
 
 /**
  * op_div - return the result of a division of two numbers
- * @a: int
- * @b: int
- * Return: int
+ * @a: integer
+ * @b: integer
+ * Return: division of int
  */
 
 int op_div(int a, int b)
