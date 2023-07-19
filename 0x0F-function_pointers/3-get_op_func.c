@@ -3,9 +3,10 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+
 /**
  * get_op_func - return a pointer for the operator s
- * @s: char pointer
+ * @s: operator fed by user
  * Return: function pointer
  */
 

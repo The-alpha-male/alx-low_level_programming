@@ -5,9 +5,9 @@
 
 /**
  * main - print the result of a operation
- * @argc: int
- * @argv: char pointer of pointer
- * Return: 0 always
+ * @argc: no of arguments
+ * @argv: array of arguments
+ * Return: 0 (SUCCESS)
  */
 
 int main(int argc, char **argv)
