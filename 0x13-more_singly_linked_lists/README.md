@@ -7,4 +7,4 @@ Return: the number of nodes
 Format: see example
 You are allowed to use printf
 
-
+##List length
