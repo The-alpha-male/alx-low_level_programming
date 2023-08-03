@@ -5,12 +5,13 @@
  * @n: decimal number
  * @index: index of the bit
  *
- * Return: 1 (success) or -1(faillure)
+ * Return: 1 (success)
+ *        -1(faillure)
  */
 
 int set_bit(unsigned long int *n, unsigned int index)
 {
-	inr bit = 1;
+	int bit = 1;
 
 	if (index > 64)
 		return (-1);
