@@ -1,15 +1,14 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * err_file  - copy contents of the file
- * @file_from: file to copy contents from
- * @file_to: file to copy contents  to
- * @argv: argument vector
- * Return: nothing to return
+ * error_file - checks if files can be opened.
+ * @file_from: file_from.
+ * @file_to: file_to.
+ * @argv: arguments vector.
+ * Return: no return.
  */
-
-
-void err_file(int file_from, int file_to, char *argv[])
+void error_file(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
 	{
@@ -24,39 +23,48 @@ void err_file(int file_from, int file_to, char *argv[])
 }
 
 /**
- * main - copies contents of  file to another file
- * @argv: argument vector
- * @argc: argument count
- * Return: always 0
+ * main - check the code for Holberton School students.
+ * @argc: number of arguments.
+ * @argv: arguments vector.
+ * Return: Always 0.
  */
 
 int main(int argc, char *argv[])
 {
-	int file_from, file_to, i;
-	ssize_t a, b;
-	char buffer[1024];
+	int file_from, file_to, err_close;
+	ssize_t nchars, nwr;
+	char buf[1024];
 
 	if (argc != 3)
 	{
 		dprintf(STDERR_FILENO, "%s\n", "Usage: cp file_from file_to");
 		exit(97);
 	}
+
 	file_from = open(argv[1], O_RDONLY);
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
-	err_file(file_from, file_to, argv);
+	error_file(file_from, file_to, argv);
 
-	a  = 1024;
-	while (a == 1024)
+	nchars = 1024;
+	while (nchars == 1024)
 	{
-		a = read(file_from, buffer, 1024);
-		if (a == -1)
-			err_file(-1, 0, argv);
-		b = write(file_to, buffer, a);
-		if (b == -1)
-			err_file(0, -1, argv);
+		nchars = read(file_from, buf, 1024);
+		if (nchars == -1)
+			error_file(-1, 0, argv);
+		nwr = write(file_to, buf, nchars);
+		if (nwr == -1)
+			error_file(0, -1, argv);
 	}
-	i = close(file_from);
-	if (i == -1)
+
+	err_close = close(file_from);
+	if (err_close == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
+		exit(100);
+	}
+
+	err_close = close(file_to);
+	if (err_close == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from);
 		exit(100);
