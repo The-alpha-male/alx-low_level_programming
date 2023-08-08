@@ -21,6 +21,10 @@ Prints "programming is like a building" followed by a new line
 
 Uses the printf function
 
-6-size.c prints the size of various types on the computer
+## 6-size.c
 
-100-intel writes a script that generates assembly code of a C code and saves it in output file
+Prints the size of various types on the computer
+
+## 100-intel
+
+Writes a script that generates assembly code of a C code and saves it in output file
