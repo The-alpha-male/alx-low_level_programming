@@ -9,11 +9,17 @@ Complies a C file without linking it
 
 Generates the assseembly code and save it in an output file. saves the file with a .s extension instead of .c
 
-3-name writes a script that compiles a C file and creates an executable named cisfun
+## 3-name
 
-4-puts.c prints "programming is like a building" followed by a new line
+Writes a script that compiles a C file and creates an executable named cisfun
 
-5-print uses the printf function
+## 4-puts.c 
+
+Prints "programming is like a building" followed by a new line
+
+## 5-print 
+
+Uses the printf function
 
 6-size.c prints the size of various types on the computer
 
