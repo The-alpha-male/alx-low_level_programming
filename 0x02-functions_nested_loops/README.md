@@ -1,28 +1,54 @@
-0-putchar.c prints ~_putchar
+## 0-putchar.c 
 
-1-alphabet.c prints the alphabet, in lowercase, followed by a new line.
+Prints ~_putchar
 
-2-print_alphabet_x10.c prints 10 times the alphabet, in lowercase, followed by a new line.
+## 1-alphabet.c prints
 
-3-islower.c  Writes a function that checks for lowercase character.
+The alphabet, in lowercase, followed by a new line.
 
-4-isalpha.c Writes a function that checks for alphabetic character.
+## 2-print_alphabet_x10.c
 
-5-sign.c Writes a function that prints the sign of a number.
+Prints 10 times the alphabet, in lowercase, followed by a new line.
 
-6-abs.c Writes a function that computes the absolute value of an integer.
+## 3-islower.c  
 
-7-print_last_digit.c Writes a function that prints the last digit of a number.
+Writes a function that checks for lowercase character.
 
-8-24_hours.c Writes a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+## 4-isalpha.c 
 
-9-times_table.c Writes a function that prints the 9 times table, starting with 0.
+Writes a function that checks for alphabetic character.
 
-10-add.c  function that adds two integers and returns the result.
+## 5-sign.c 
 
-11-print_to_98.c  prints all natural numbers from n to 98, followed by a new line.
+Writes a function that prints the sign of a number.
 
-100-times_table.c  prints the n times table, starting with 0.
+## 6-abs.c 
+
+Writes a function that computes the absolute value of an integer.
+
+## 7-print_last_digit.c 
+
+Writes a function that prints the last digit of a number.
+
+## 8-24_hours.c 
+
+Writes a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+
+## 9-times_table.c 
+
+Writes a function that prints the 9 times table, starting with 0.
+
+## 10-add.c  
+
+function that adds two integers and returns the result.
+
+## 11-print_to_98.c  
+
+Prints all natural numbers from n to 98, followed by a new line.
+
+## 100-times_table.c  
+
+prints the n times table, starting with 0.
 
 101-natural.c computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line.
 
