@@ -22,14 +22,26 @@ Prints all single digit numbers of base 10 starting from 0, followed by a new li
 
 Prints all single digit numbers of base 10 starting from 0, followed by a new line.
 
-7-print_tebahpla.c prints the lowercase alphabet in reverse, followed by a new line.
+## 7-print_tebahpla.c
 
-8-print_base16.c prints all the numbers of base 16 in lowercase, followed by a new line.
+Prints the lowercase alphabet in reverse, followed by a new line.
 
-9-print_comb.c program that prints all possible combinations of single-digit numbers.
+## 8-print_base16.c
 
-100-print_comb3.c  prints all possible different combinations of two digits.
+Prints all the numbers of base 16 in lowercase, followed by a new line.
 
-101-print_comb4.c  prints all possible different combinations of three digits.
+## 9-print_comb.c
 
-102-print_comb5.c prints all possible combinations of two two-digit numbers 0-99
+Program that prints all possible combinations of single-digit numbers.
+
+## 100-print_comb3.c
+
+Prints all possible different combinations of two digits.
+
+## 101-print_comb4.c
+
+Prints all possible different combinations of three digits.
+
+## 102-print_comb5.c
+
+Prints all possible combinations of two two-digit numbers 0-99
