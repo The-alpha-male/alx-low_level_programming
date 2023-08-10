@@ -1,14 +1,26 @@
-1-last_digit assigns a raandom number to var n and prints last digit in the var
+## 1-last_digit 
 
-2-print_alphabet.c prints the alphabet in lowercase, followed by a new line.
+Assigns a raandom number to var n and prints last digit in the var
 
-3-print_alphabets.c prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+## 2-print_alphabet.c 
 
-4-print_alphabt.cprints the alphabet in lowercase, followed by a new line except q and e
+Prints the alphabet in lowercase, followed by a new line.
 
-5-print_numbers.c prints all single digit numbers of base 10 starting from 0, followed by a new line.
+## 3-print_alphabets.c
 
-6-print_numberz.c prints all single digit numbers of base 10 starting from 0, followed by a new line.
+Prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
+## 4-print_alphabt.c
+
+Prints the alphabet in lowercase, followed by a new line except q and e
+
+## 5-print_numbers.c
+
+Prints all single digit numbers of base 10 starting from 0, followed by a new line.
+
+## 6-print_numberz.c 
+
+Prints all single digit numbers of base 10 starting from 0, followed by a new line.
 
 7-print_tebahpla.c prints the lowercase alphabet in reverse, followed by a new line.
 
