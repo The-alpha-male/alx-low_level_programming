@@ -10,11 +10,17 @@ Write a function that swaps the values of two integers.
 
 Write a function that returns the length of a string.
 
-3-puts.c prints a string followed by a new line to stdout
+## 3-puts.c 
 
-4-print_rev.c function that prints a string, in reverse, followed by a new line.
+Prints a string followed by a new line to stdout
 
-5-rev_string.c reverses a string
+## 4-print_rev.c
+
+Function that prints a string, in reverse, followed by a new line.
+
+## 5-rev_string.c
+
+Reverses a string
 
 6-puts2.c Write a function that prints every other character of a string, starting with the first character, followed by a new line.
 
