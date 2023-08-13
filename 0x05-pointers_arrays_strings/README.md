@@ -34,7 +34,14 @@ Function that prints half of a string, followed by a new line.
 
 Prints n elements of an array of integers, followed by a new line.
 
-9-strcpy.c function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
-100-atoi.c function that convert a string to an integer
+## 9-strcpy.c 
 
-101-keygen.c program that generates random valid passwords for the program 101-crackme.
+Function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+
+## 100-atoi.c 
+
+Function that convert a string to an integer
+
+## 101-keygen.c 
+
+Program that generates random valid passwords for the program 101-crackme.
