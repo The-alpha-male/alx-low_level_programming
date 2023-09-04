@@ -1,44 +1,44 @@
 #include "main.h"
 
 /**
-* read_textfile - check the code for Holberton School students.
-* @filename: name of the file to be read
-* @letters: number of letters to read and write.
-* Return: number letters printed
-*/
+ * read_textfile - reads a text file and prints to the STDOUT
+ * @filename: name of the file to be read
+ * @letters: maximum number of letters to be read and printed
+ *
+ * Return:number of letters to read and write
+ */
 
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	ssize_t xletters;
-	int file;
-	char *text;
+	int fd, length, i, result;
+	char *buffer;
 
-	if (!filename)
+	if (filename == NULL)
 		return (0);
-	text = malloc(sizeof(char) * letters + 1);
-	if (text == NULL)
+
+	fd = open(filename, O_RDONLY);
+	if (fd == -1)
 		return (0);
-	file = open(filename, O_RDONLY);
-	if (file == -1)
-	{
-		free(text);
+
+	buffer = malloc(sizeof(char) * letters);
+	if (buffer == NULL)
 		return (0);
-	}
-	xletters = read(file, text, sizeof(char) * letters);
-	if (nletters == -1)
-	{
-		free(text);
-		close(file);
+
+	read(fd, buffer, letters);
+	buffer[letters] = '\0';
+
+	for (i = 0; buffer[i] != '\0'; i++)
+		length += 1;
+
+	result = close(fd);
+	if (result != 0)
+		exit(-1);
+
+	result = write(STDOUT_FILENO, buffer, length);
+	if (result != length)
 		return (0);
-	}
-	xletters = write(STDOUT_FILENO, text, xletters);
-	if (xletters == -1)
-	{
-		free(text);
-		close(file);
-		return (0);
-	}
-	free(text);
-	close(file);
-	return (xletters);
+
+	free(buffer);
+
+	return (length);
 }
