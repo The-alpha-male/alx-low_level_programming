@@ -10,7 +10,9 @@ Function that copies memory area.
 
 Function that locates a character in a string
 
-3-strspn.c Write a function that gets the length of a prefix substring
+## 3-strspn.c 
+
+Write a function that gets the length of a prefix substring
 
 4-strpbrk.c Write a function that searches a string for any of a set of bytes.
 
