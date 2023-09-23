@@ -22,7 +22,9 @@ Reverses the content of an array of integers
 
 Function that capitalizes all words of a string.
 
-7-leet.c function that encodes a string into 1337
+## 7-leet.c
+
+Function that encodes a string into 1337
 
 100-rot13.c function that encodes a string using rot13.
 
