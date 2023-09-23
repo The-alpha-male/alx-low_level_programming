@@ -14,7 +14,9 @@ Copies a string
 
 Compares two strings
 
-4-rev_array.c reverses the content of an array of integers
+## 4-rev_array.c 
+
+Reverses the content of an array of integers
 
 6-cap_string.c function that capitalizes all words of a string.
 
