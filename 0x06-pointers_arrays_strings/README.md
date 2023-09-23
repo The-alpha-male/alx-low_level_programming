@@ -10,7 +10,9 @@ Concatenates two strings except that it will use at most n bytes from src; and s
 
 Copies a string
 
-3-strcmp.c compares two strings
+## 3-strcmp.c
+
+Compares two strings
 
 4-rev_array.c reverses the content of an array of integers
 
