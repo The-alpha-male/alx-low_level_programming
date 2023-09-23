@@ -26,7 +26,9 @@ Function that capitalizes all words of a string.
 
 Function that encodes a string into 1337
 
-100-rot13.c function that encodes a string using rot13.
+## 100-rot13.c 
+
+Function that encodes a string using rot13.
 
 101-print_number.c Write a function that prints an integer
 
