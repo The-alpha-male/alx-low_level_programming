@@ -18,7 +18,9 @@ Compares two strings
 
 Reverses the content of an array of integers
 
-6-cap_string.c function that capitalizes all words of a string.
+## 6-cap_string.c 
+
+Function that capitalizes all words of a string.
 
 7-leet.c function that encodes a string into 1337
 
