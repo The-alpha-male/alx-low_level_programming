@@ -1,25 +1,45 @@
-0-strcat.c concatenates two strings
+## 0-strcat.c 
 
-1-strncat.c concatenates two strings except that
-it will use at most n bytes from src; and
-src does not need to be null-terminated if it contains n or more bytes
+Concatenates two strings
 
-2-strncpy.c copies a string
+## 1-strncat.c 
 
-3-strcmp.c compares two strings
+Concatenates two strings except that it will use at most n bytes from src; and src does not need to be null-terminated if it contains n or more bytes
 
-4-rev_array.c reverses the content of an array of integers
+## 2-strncpy.c  
 
-6-cap_string.c function that capitalizes all words of a string.
+Copies a string
 
-7-leet.c function that encodes a string into 1337
+## 3-strcmp.c
 
-100-rot13.c function that encodes a string using rot13.
+Compares two strings
 
-101-print_number.c Write a function that prints an integer
+## 4-rev_array.c 
 
-101-print_number.c Write a function that prints an integer
+Reverses the content of an array of integers
 
-102-magic.c Add one line to this code, so that the program prints a[2] = 98, followed by a new line
+## 6-cap_string.c 
+
+Function that capitalizes all words of a string.
+
+## 7-leet.c
+
+Function that encodes a string into 1337
+
+## 100-rot13.c 
+
+Function that encodes a string using rot13.
+
+## 101-print_number.c 
+
+Write a function that prints an integer
+
+## 101-print_number.c 
+
+Write a function that prints an integer
+
+## 102-magic.c 
+
+Add one line to this code, so that the program prints a[2] = 98, followed by a new line
 
 
