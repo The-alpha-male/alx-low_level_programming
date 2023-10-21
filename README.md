@@ -2,4 +2,4 @@
 ### #CisFun
 Introduction to C programming
 
-Deep dive into C and its data structures
+A deep dive into C and its data structures
