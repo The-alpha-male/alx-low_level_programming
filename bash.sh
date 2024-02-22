@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "$"
-git add . ; git commit -m '$' ; git push
+
+#echo "$"
+echo $(git add . ; git commit -m '$2' ; git push)
